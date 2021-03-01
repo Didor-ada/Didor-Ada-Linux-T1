@@ -1,0 +1,49 @@
+Last login: Mon Mar  1 14:06:47 on console
+didorada@MBP-de-Didor ~ % prompt
+zsh: command not found: prompt
+didorada@MBP-de-Didor ~ % ls
+Desktop		Downloads	Movies		Pictures
+Documents	Library		Music		Public
+didorada@MBP-de-Didor ~ % ls .
+Desktop		Downloads	Movies		Pictures
+Documents	Library		Music		Public
+didorada@MBP-de-Didor ~ % la -a
+zsh: command not found: la
+didorada@MBP-de-Didor ~ % ls -a
+.			.zsh_sessions		Movies
+..			Desktop			Music
+.CFUserTextEncoding	Documents		Pictures
+.DS_Store		Downloads		Public
+.Trash			Library
+didorada@MBP-de-Didor ~ % ls Images
+ls: Images: No such file or directory
+didorada@MBP-de-Didor ~ % ls ./image
+ls: ./image: No such file or directory
+didorada@MBP-de-Didor ~ % ls ./images
+ls: ./images: No such file or directory
+didorada@MBP-de-Didor ~ % ls ./pictures
+Photos Library.photoslibrary
+didorada@MBP-de-Didor ~ % ls /bin
+[		dd		launchctl	pwd		test
+bash		df		link		rm		unlink
+cat		echo		ln		rmdir		wait4path
+chmod		ed		ls		sh		zsh
+cp		expr		mkdir		sleep
+csh		hostname	mv		stty
+dash		kill		pax		sync
+date		ksh		ps		tcsh
+didorada@MBP-de-Didor ~ % pwd
+/Users/didorada
+didorada@MBP-de-Didor ~ % cd Pictures
+didorada@MBP-de-Didor Pictures % cd ..
+didorada@MBP-de-Didor ~ % cd /opt
+didorada@MBP-de-Didor /opt % cd ../Users/didorada
+didorada@MBP-de-Didor ~ % cd /didorada/bin
+cd: no such file or directory: /didorada/bin
+didorada@MBP-de-Didor ~ % cd /usr/bin     
+didorada@MBP-de-Didor bin % ~
+zsh: permission denied: /Users/didorada
+didorada@MBP-de-Didor bin % ls ~/Downloads
+Discord.dmg				Livret daccueil Welcome Wilders!-2.pdf
+Install Spotify.app			Livret daccueil Welcome Wilders!.pdf
+didorada@MBP-de-Didor bin % 
